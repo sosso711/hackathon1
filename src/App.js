@@ -1,5 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home";
+import Profil from "./Pages/Profil";
+import 
 import Navbar from "./components/Navbar";
 
 import Footer from "./components/Footer";
@@ -10,9 +12,9 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/profil" element={<Home />} />
-        <Route path="/contact" element={<Home />} />
-        <Route path="/" element={<Home />} />
+        <Route path="/profil" element={<Profil />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/userForm" element={<Home />} />
       </Routes>
       <Footer />
     </BrowserRouter>
