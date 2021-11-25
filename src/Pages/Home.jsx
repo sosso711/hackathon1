@@ -42,19 +42,19 @@ const Home = () => {
           </p>
         </ul>*/}
         {/* évènement */}
-        <div className=" flex-row texte-xs rounded-2xl mx-8 mt-10 p-4 mb-10 text-center  bg-blue-300 justify-center">
+        <div className=" flex-row texte-xs rounded-2xl mx-8 mt-10 p-4 mb-10 text-center  bg-blue-100 justify-center">
           {ApiPost.map((post) => {
             return (
               <div>
-                <h2 key={post.id}>{post.name}</h2>
+                <h2 key={post.id} className="m-2">
+                  {post.name}
+                </h2>
                 <img
-                  className="rounded-full h-24 w-24  justify-center "
-                  // src={post.img}
-                  alt="évènement"
+                  className="rounded-full h-10 w-10 m-2  justify-start "
+                  src={post.img}
+                  alt="p"
                 />
-                <p className="text-center h-24 w-24 text-xs black">
-                  {post.content}
-                </p>
+                <p className="m-1 text-xs black m-3">{post.content}</p>
               </div>
             );
           })}
