@@ -1,4 +1,5 @@
 import React from "react";
+// import img from "../../public/man-ge7aa8d8e9_1920.jpg";
 
 const ApiPost = [
   {
