@@ -1,18 +1,20 @@
 import React from "react";
-import Header from "../components/Header";
+import ApiArtists from "../components/ApiArtists";
 
 const Profil = () => {
-  const profils = JSON.parse(localStorage.getItem("profils")) ?? [];
   return (
-    <div>
-      <Header name="My profil" />
-
-      <p className="flex-grow flex-col flex">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste adipisci
-        explicabo porro sint est quaerat, ipsa velit pariatur nisi alias natus
-        dolores accusantium neque itaque ex. Ratione, pariatur. Dolores, nemo.
-      </p>
-    </div>
+    <>
+      <div className="container" />
+      <div>
+        {ApiArtists.firstname}
+        {ApiArtists.lastname}
+        {ApiArtists.musiquetype}
+        {ApiArtists.emai}
+        {ApiArtists.img}
+        {ApiArtists.detail}
+        {ApiArtists.objectif}
+      </div>
+    </>
   );
 };
 
