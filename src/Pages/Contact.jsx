@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
-import FakeUser from "../Assets/fakeuser.png";
+import FakeUser from "../assets/fakeuser.png";
 
 const Contact = () => {
   return (

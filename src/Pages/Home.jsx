@@ -19,7 +19,7 @@ const Home = () => {
         />
         <h3>Jack Daniels</h3>
         <p className="text-center h-24 w-24 text-xs black"> Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-        <li className="p-2"> Extrait musique 
+        <li className="p-2"> 
           </li>
         </ul>
 </div>
@@ -32,7 +32,7 @@ const Home = () => {
           src={img2}
           alt="artiste "
         />
-        <h3>prénom_nom</h3>
+   
         <p className="text-center h-24 w-24 text-xs black"> Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
        
         </ul>
@@ -46,7 +46,7 @@ const Home = () => {
           src={img}
           alt="évènement"
         />
-        <h3>Titre</h3>
+  
         <p className="text-center h-24 w-24 text-xs black"> Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
         
         </ul>
