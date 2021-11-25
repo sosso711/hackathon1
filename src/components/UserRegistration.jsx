@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const UserRegistration = () => {
   const [name, setName] = useState("");
@@ -6,7 +7,7 @@ const UserRegistration = () => {
   const [email, setEmail] = useState("");
   const [genre, setGenre] = useState("");
   const [description, setDescription] = useState("");
-
+  let navigate = useNavigate();
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -17,9 +18,11 @@ const UserRegistration = () => {
       genre,
       description,
     };
-    const profils = JSON.parse(localStorage.getItem("profils")) ?? [];
-    profils.push(newProfile);
-    localStorage.setItem("profils", JSON.stringify(profils));
+
+    localStorage.setItem("myProfil", JSON.stringify(newProfile));
+
+    //after submit form redirect user
+    navigate("/myProfilPage");
   };
 
   return (
