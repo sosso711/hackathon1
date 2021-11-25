@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 
 const Profil = () => {
+  const profils = JSON.parse(localStorage.getItem("profils")) ?? [];
   return (
     <div>
       <Header name="My profil" />
