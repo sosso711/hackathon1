@@ -5,26 +5,26 @@ const Navbar = () => {
   return (
     <div>
       <nav>
-        <ul className="flex flex-row list-none">
-          <li className="p-5">
+        <ul className="flex flex-row list-none h-18">
+          <li className="pl-10 pt-2">
             <Link to="/"> Home </Link>
           </li>
 
-          <li className="p-5">
+          <li className="pl-10 pt-2">
             <Link to="/profil"> My profil </Link>
           </li>
 
-          <li className="p-5">
+          <li className="pl-10 pt-2">
             <Link to="/contact"> My contacts </Link>
           </li>
-          <li className="p-5">
+          <li className="pl-10 pt-2">
             <Link to="/userForm"> Registration </Link>
           </li>
-          <div className="flex justify-end">
+          <div className="flex justify-end pl-96">
             <input
               type="text"
               placeholder="    🔎"
-              className="w-48 rounded-xl m-2 border-2"
+              className=" w-48 rounded-xl m-2 border-2"
             />
           </div>
         </ul>
