@@ -1,13 +1,12 @@
-import React from "react";
+
 
 const ApiArtists = [
   {
     id: 1,
-    firstname: "Jack",
-    lastname: "Daniel",
+    name: "Jack Daniel",
     musiquetype: "Rock",
     email: "jack.daniel@gmail.com",
-    img: "src/artiste1.jpg",
+    img: "/artiste1.jpg",
     detail: "Chanteur depuis 20 ans, j'interprête les tubes rock des années 80",
     objectif:
       "Je suis à l'écoute de toute proposition pour vos événements, festivals, mariages, fêtes, cérémonie",
@@ -15,11 +14,10 @@ const ApiArtists = [
 
   {
     id: 2,
-    firstname: "Janne",
-    lastname: "Dark",
+    name: "Janne Dark",
     musiquetype: "Electro",
     email: "jane.darkl@gmail.com",
-    img: "src/Dj femme.jpg",
+    img: "/Dj femme.jpg",
     detail: "Dj j'anime vos soirées avec tous les types de musiques",
     objectif:
       "Je suis à l'écoute de vos projets que ce soit en club ou dans les festivals",
@@ -27,11 +25,10 @@ const ApiArtists = [
 
   {
     id: 3,
-    firstname: "Johnny",
-    lastname: "Guitare",
+    name: "Johnny Guitare",
     musiquetype: "Variété française",
     email: "johnny.guitarel@gmail.com",
-    img: "src/guitariste.jpg",
+    img: "/guitariste.jpg",
     detail:
       "Guitariste depuis maintenant 5 ans, je suis passionné de variétés françaises",
     objectif:
@@ -40,22 +37,20 @@ const ApiArtists = [
 
   {
     id: 4,
-    firstname: "Lise",
-    lastname: "Logo",
+    name: "Lise Logo",
     musiquetype: "Musique classigue",
     email: "lise.logol@gmail.com",
-    img: "src/violoniste.jpg",
+    img: "/violoniste.jpg",
     detail: "Viloniste au conservatoire de Lyon depuis 2019",
     objectif: "Je suis à la recherche d'un contrat avec un opéra",
   },
 
   {
     id: 5,
-    firstname: "Lucie",
-    lastname: "Vallon",
+    name: "Lucie Vallon",
     musiquetype: "Chanteuse de variété internationale",
     email: "lucie.vallonl@gmail.com",
-    img: "src/chanteuse.jpg",
+    img: "/chanteuse.jpg",
     detail: "Viloniste au conservatoire de Lyon depuis 2019",
     objectif: "Je suis à la recherche d'un contrat avec un opéra",
   },
