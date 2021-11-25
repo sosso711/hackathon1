@@ -62,3 +62,12 @@ const Home = () => {
 };
 
 export default Home;
+<div>
+        {Apipost.map((post) => (
+          <div key={post.id}>
+            <h1>{post.name}</h1>
+            <img src="{post.img}" alt="photo" />
+          </div>
+        ))}
+      </div>
+    </div>
