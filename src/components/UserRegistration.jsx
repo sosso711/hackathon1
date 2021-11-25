@@ -7,6 +7,8 @@ const UserRegistration = () => {
   const [email, setEmail] = useState("");
   const [genre, setGenre] = useState("");
   const [description, setDescription] = useState("");
+  const [morceau, setMorceau] = useState("");
+  const [image, setImage] = useState("");
   let navigate = useNavigate();
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -17,6 +19,8 @@ const UserRegistration = () => {
       email,
       genre,
       description,
+      url: morceau,
+      img: image,
     };
 
     localStorage.setItem("myProfil", JSON.stringify(newProfile));
@@ -35,7 +39,7 @@ const UserRegistration = () => {
           <div className=" flex flex-row ">
             <div
               className="bg-blue-100 rounded-full h-24 w-24 m-5 border-2 border-blue-500 text-center"
-              onClick={() => prompt(" URL de ta photo")}
+              onClick={() => setImage(prompt(" URL de ta photo"))}
             ></div>
             <div className="flex flex-col">
               {" "}
@@ -95,7 +99,7 @@ const UserRegistration = () => {
               Valider
             </button>
             <button
-              onClick={() => prompt("url de ton morceau")}
+              onClick={() => setMorceau(prompt("url de ton morceau"))}
               type="submit"
               className="w-30 h-15 border-2 border-blue-500 rounded-xl m-2 bg-blue-100 p-1 text-center shadow-xl"
             >
