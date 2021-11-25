@@ -20,6 +20,13 @@ const Navbar = () => {
           <li className="p-5">
             <Link to="/userForm"> Registration </Link>
           </li>
+          <div className="flex justify-end">
+            <input
+              type="text"
+              placeholder="    🔎"
+              className="w-48 rounded-xl m-2 border-2"
+            />
+          </div>
         </ul>
       </nav>
     </div>
