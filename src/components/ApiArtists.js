@@ -1,63 +1,64 @@
-import React from "react";
+
 
 const ApiArtists = [
   {
     id: 1,
-    firstname: "Jack",
-    lastname: "Daniel",
+    name: "Jack Daniel",
     musiquetype: "Rock",
-    email: "jack.daniel@gmail.com",
-    img: "src/artiste1.jpg",
+    email: "Email : jack.daniel@gmail.com",
+    img: "/artiste1.jpg",
     detail: "Chanteur depuis 20 ans, j'interprête les tubes rock des années 80",
     objectif:
       "Je suis à l'écoute de toute proposition pour vos événements, festivals, mariages, fêtes, cérémonie",
+    url: "https://www.youtube.com/watch?v=ij58J-n7CJo"
   },
 
   {
     id: 2,
-    firstname: "Janne",
-    lastname: "Dark",
+    name: "Janne Dark",
     musiquetype: "Electro",
-    email: "jane.darkl@gmail.com",
-    img: "src/Dj femme.jpg",
+    email: "Email : jane.darkl@gmail.com",
+    img: "/Dj femme.jpg",
     detail: "Dj j'anime vos soirées avec tous les types de musiques",
     objectif:
       "Je suis à l'écoute de vos projets que ce soit en club ou dans les festivals",
-  },
+    url: "https://www.youtube.com/watch?v=Wpx5ozs-4Io"
+    },
 
   {
     id: 3,
-    firstname: "Johnny",
-    lastname: "Guitare",
-    musiquetype: "Variété française",
-    email: "johnny.guitarel@gmail.com",
-    img: "src/guitariste.jpg",
+    name: "Johnny Guitare",
+    musiquetype: "Variété internationale",
+    email: "Email : johnny.guitare@gmail.com",
+    img: "/guitariste2.jpg",
     detail:
-      "Guitariste depuis maintenant 5 ans, je suis passionné de variétés françaises",
+      "Guitariste depuis maintenant 5 ans, je suis passionné de variété internationale",
     objectif:
       "Je suis à la recherche d'un groupe qui pourra m'accueillir dans une nouvelle aventure musicale",
+      url: "https://www.youtube.com/watch?v=2CkB4a0A7cQ"
+
   },
 
   {
     id: 4,
-    firstname: "Lise",
-    lastname: "Logo",
+    name: "Lise Logo",
     musiquetype: "Musique classigue",
-    email: "lise.logol@gmail.com",
-    img: "src/violoniste.jpg",
+    email: "Email : lise.logo@gmail.com",
+    img: "/violoniste.jpg",
     detail: "Viloniste au conservatoire de Lyon depuis 2019",
     objectif: "Je suis à la recherche d'un contrat avec un opéra",
+    url: "https://www.youtube.com/watch?v=wZlCcDWvBMg"
   },
 
   {
     id: 5,
-    firstname: "Lucie",
-    lastname: "Vallon",
+    name: "Lucie Vallon",
     musiquetype: "Chanteuse de variété internationale",
-    email: "lucie.vallonl@gmail.com",
-    img: "src/chanteuse.jpg",
-    detail: "Viloniste au conservatoire de Lyon depuis 2019",
-    objectif: "Je suis à la recherche d'un contrat avec un opéra",
+    email: "Email : lucie.vallon@gmail.com",
+    img: "/chanteuse.jpg",
+    detail: "Chanteuse depuis mon plus jeune âge, j'écris mes textes mais je chante aussi de la variété internationale.",
+    objectif: "Je suis à la recherche d'un contrat pour une animation, concert,...",
+    url: "https://www.youtube.com/watch?v=Vnoz5uBEWOA"
   },
 ];
 
