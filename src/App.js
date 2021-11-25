@@ -4,7 +4,6 @@ import Profil from "./Pages/Profil";
 import Contact from "./Pages/Contact";
 import UseForm from "./Pages/UserForm";
 import Navbar from "./components/Navbar";
-
 import Footer from "./components/Footer";
 import "./App.css";
 

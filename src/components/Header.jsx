@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../Assets/logoLinkMusic.png";
+import Logo from "../assets/logoLinkMusic.png";
 import { Link } from "react-router-dom";
 
 const Header = (props) => {
