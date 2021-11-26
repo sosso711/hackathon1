@@ -100,7 +100,6 @@ const UserRegistration = () => {
             </button>
             <button
               onClick={() => setMorceau(prompt("url de ton morceau"))}
-              type="submit"
               className="w-30 h-15 border-2 border-blue-500 rounded-xl mb-6 mx-3 bg-blue-100 p-1 text-center shadow-xl"
             >
               {" "}

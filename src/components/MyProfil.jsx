@@ -21,9 +21,8 @@ const MyProfil = () => {
           <div className="text-center text-2xl mt-4 mb-4">
             {myProfil.name} <br />
           </div>
-          {myProfil.musiquetype} <br />
-          {myProfil.detail} <br />
-          {myProfil.objectif} <br />
+          {myProfil.genre} <br />
+          {myProfil.description} <br />
           {myProfil.email} <br />
           <ReactPlayer
             url={myProfil.url}
