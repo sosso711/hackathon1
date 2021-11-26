@@ -3,7 +3,7 @@ import "./Slide.css";
 import DataSlide from "./DataSlide";
 
 export default function Slide() {
-  const [people, setPeople] = useState(DataSlide);
+  const [people] = useState(DataSlide);
   const [value, setValue] = useState(0);
 
   useEffect(() => {
