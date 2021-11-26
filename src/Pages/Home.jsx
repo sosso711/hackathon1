@@ -5,26 +5,29 @@ import Header from "../components/Header";
 import { Link } from "react-router-dom";
 import ApiPost from "../components/ApiPost";
 import ReactPlayer from "react-player";
-
+import ApiArtists from "../components/ApiArtists";
 const Home = () => {
   return (
-    <div>
+    <div className="">
       <Header name="Home" />
       {/* artiste du jour */}
-      <div className="flex-row texte-xs rounded-2xl mx-8 mt-10 p-4  text-center  bg-blue-300 justify-center">
-        <ul className="flex">
+      <div className="flex flex-col texte-xs rounded-2xl mx-5 mt-10 p-4  text-center  bg-blue-100 justify-center">
+        <ul className=" flex flex-row">
           <img
             className="rounded-full h-24 w-24  justify-center "
             src="./artiste1.jpg"
             alt="artiste du jour"
           />
-          <div className="">
-            <h2>Artist of the Day</h2>
-            <h3 className="text-white">Jack Daniels</h3>
-            <p>Jack is the fabulous singer</p>
-            <Link to="/profil" className="text-white">
+          <div className="flex flex-col w-2/3">
+            <h2 className="text-center m-2 text-2xl">Nouveau Talent</h2>
+            <h3 className="text-blue-900 m-3 text-2xl">Jack Daniels</h3>
+            <p>Chanteur depuis 20 ans, j'interprète ...</p>
+            <Link
+              to="/profil"
+              className="text-blue-900 border-2 border-blue-900 rounded-2xl w-1/2 m-3"
+            >
               {" "}
-              Your profil{" "}
+              Mon profil{" "}
             </Link>
           </div>
 
