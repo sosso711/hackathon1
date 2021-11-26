@@ -1,21 +1,15 @@
 import React from "react";
 import Header from "../components/Header";
-import FakeUser from "../Assets/fakeuser.png";
+import Slide from "../components/Slide";
+import "./Contact.css";
 
 const Contact = () => {
   return (
     <div>
       <Header name="My contacts" />
-      <div className="flex justify-center items-center">
-        <img
-          src={FakeUser}
-          alt="fake user"
-          className="rounded-full shadow-lg m-6 w-48"
-        />
-      </div>
 
-      <div>
-        <p>Bill Sanders</p>
+      <div className="flex justify-center m-10">
+        <Slide />
       </div>
     </div>
   );

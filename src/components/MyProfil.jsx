@@ -37,7 +37,6 @@ const MyProfil = () => {
             </button>
           </div>
         </div>
-        )
       </div>
     </>
   );
