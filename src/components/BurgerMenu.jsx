@@ -17,7 +17,6 @@ const BurgerMenu = () => {
       <Link to="/profil"> Profils </Link>
       <Link to="/contact"> My contacts </Link>
       <Link to="/userForm"> Registration </Link>
-      <Link to="/myProfilPage">My Profil</Link>
     </Menu>
   );
 };
