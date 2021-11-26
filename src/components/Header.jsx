@@ -5,10 +5,10 @@ import BurgerMenu from "../components/BurgerMenu";
 
 const Header = (props) => {
   return (
-    <div className="sm:flex flex-row ">
+    <div className="sm:flex  ">
       <BurgerMenu />
 
-      <div className="flex flex-col bg-blue-700 justify-center items-center">
+      <div className="flex flex-col bg-blue-700 justify-center items-center w-full flex-start">
         <Link to="/">
           <img src={Logo} alt="logo" className="flex h-20" />
         </Link>

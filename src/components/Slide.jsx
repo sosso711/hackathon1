@@ -1,11 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Slide.css";
 import DataSlide from "./DataSlide";
-import styled from "styled-components";
-import {
-  IoMdArrowDropleftCircle,
-  IoMdArrowDroprightCircle,
-} from "react-icons/io";
 
 export default function Slide() {
   const [people, setPeople] = useState(DataSlide);

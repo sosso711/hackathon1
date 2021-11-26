@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "../components/Header";
-import FakeUser from "../Assets/fakeuser.png";
 import Slide from "../components/Slide";
 import "./Contact.css";
 
