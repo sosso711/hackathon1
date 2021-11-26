@@ -1,16 +1,22 @@
 import React from "react";
 import Header from "../components/Header";
+import FakeUser from "../Assets/fakeuser.png";
 
 const Contact = () => {
   return (
     <div>
       <Header name="My contacts" />
+      <div className="flex justify-center items-center">
+        <img
+          src={FakeUser}
+          alt="fake user"
+          className="rounded-full shadow-lg m-6 w-48"
+        />
+      </div>
 
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste adipisci
-        explicabo porro sint est quaerat, ipsa velit pariatur nisi alias natus
-        dolores accusantium neque itaque ex. Ratione, pariatur. Dolores, nemo.
-      </p>
+      <div>
+        <p>Bill Sanders</p>
+      </div>
     </div>
   );
 };
