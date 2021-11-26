@@ -38,7 +38,7 @@ const UserRegistration = () => {
           {" "}
           <div className=" flex flex-row ">
             <div
-              className="bg-blue-100 rounded-full h-24 w-24 m-5 border-2 border-blue-500 text-center"
+              className="bg-blue-100 rounded-full h-24 w-24 mx-2 border-2 border-blue-500 text-center"
               onClick={() => setImage(prompt(" URL de ta photo"))}
             ></div>
             <div className="flex flex-col">
@@ -50,7 +50,7 @@ const UserRegistration = () => {
                 onChange={(e) => {
                   setName(e.target.value);
                 }}
-                className="w-25 h-15 border-2 border-blue-500 rounded-xl m-3 bg-blue-100 p-1 text-center shadow-xl"
+                className="w-25 h-15 border-2 border-blue-500 rounded-xl m-2 bg-blue-100 p-1 text-center shadow-xl"
               ></input>
               <input
                 type="tel"
@@ -59,7 +59,7 @@ const UserRegistration = () => {
                   setNumberTel(e.target.value);
                 }}
                 placeholder="numéro de telephone"
-                className="w-25 h-15 border-2 border-blue-500 rounded-xl m-3 bg-blue-100 p-1 text-center shadow-xl"
+                className="w-25 h-15 border-2 border-blue-500 rounded-xl m-2 bg-blue-100 p-1 text-center shadow-xl"
               ></input>
             </div>
           </div>

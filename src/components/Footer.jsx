@@ -8,7 +8,7 @@ import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 const Footer = () => {
   return (
     <div className="flex-col flex-end justify-around items-center bg-blue-700 w-full h-auto sm:flex-row">
-      <div className="flex items-center justify-center m-10">
+      <div className="flex items-center justify-center ">
         <p className="text-gray-200 mx-4 text-lg  ">Login</p>
         <AccountCircleIcon />
       </div>

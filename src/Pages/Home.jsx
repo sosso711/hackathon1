@@ -1,11 +1,8 @@
 import Header from "../components/Header";
-// import img from '../assets/concert.jpeg';
-// import img2 from '../assets/artiste.jpeg';
-// import img3 from '../assets/artistedujour.jpeg';
 import { Link } from "react-router-dom";
 import ApiPost from "../components/ApiPost";
 import ReactPlayer from "react-player";
-import ApiArtists from "../components/ApiArtists";
+
 const Home = () => {
   return (
     <div className="">
@@ -21,7 +18,7 @@ const Home = () => {
           <div className="flex flex-col w-2/3">
             <h2 className="text-center m-2 text-2xl">Nouveau Talent</h2>
             <h3 className="text-blue-900 m-3 text-2xl">Jack Daniels</h3>
-            <p>Chanteur depuis 20 ans, j'interprète ...</p>
+            <p className="text-xs">Chanteur depuis 20 ans, j'interprète ...</p>
             <Link
               to="/profil"
               className="text-blue-900 border-2 border-blue-900 rounded-2xl w-1/2 m-3"
