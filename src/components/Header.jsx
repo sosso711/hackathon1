@@ -5,7 +5,7 @@ import BurgerMenu from "../components/BurgerMenu";
 
 const Header = (props) => {
   return (
-    <div className="sm:flex  ">
+    <div className="flex  ">
       <BurgerMenu />
 
       <div className="flex flex-row bg-blue-700 justify-end px-5 ">
