@@ -14,7 +14,7 @@ const MyProfil = () => {
       <section className="cardtitle" />
       <div>
         <div
-          className="pb-20 text-lg border-gray-600 border-2 m-6 p-4 rounded-md shadow-md bg-gray-400"
+          className="pb-20 text-lg border-blue-700 border-3 m-6 p-4 rounded-md bg-blue-300 shadow-2xl"
           key={myProfil.id}
         >
           <img src={myProfil.img} alt="" className="w-100 h-80 rounded-md" />

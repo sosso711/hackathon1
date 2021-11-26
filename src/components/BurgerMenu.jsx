@@ -13,10 +13,10 @@ const toggleMenu = ({ isOpen }) => {
 const BurgerMenu = () => {
   return (
     <Menu noOverlay onStateChange={toggleMenu}>
-      <Link to="/"> Home </Link>
+      <Link to="/"> Accueil </Link>
       <Link to="/profil"> Profils </Link>
-      <Link to="/contact"> My contacts </Link>
-      <Link to="/userForm"> Registration </Link>
+      <Link to="/contact"> Contacts </Link>
+      <Link to="/userForm"> Formulaire </Link>
     </Menu>
   );
 };

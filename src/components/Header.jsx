@@ -8,12 +8,12 @@ const Header = (props) => {
     <div className="sm:flex  ">
       <BurgerMenu />
 
-      <div className="flex flex-col bg-blue-700 justify-center items-center w-full flex-start">
+      <div className="flex flex-row bg-blue-700 justify-end px-5 ">
         <Link to="/">
           <img src={Logo} alt="logo" className="flex h-20" />
         </Link>
 
-        <h4 className="text-4xl text-gray-200 pb-6"> Link Music</h4>
+        <h4 className="text-2xl text-gray-200 pt-6 px-5"> Link Music</h4>
       </div>
     </div>
   );

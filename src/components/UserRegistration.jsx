@@ -31,10 +31,10 @@ const UserRegistration = () => {
 
   return (
     <div>
-      <h1 className="text-center m-3"> Mon Profil</h1>
+      <h1 className="text-center m-10"> Mon Profil</h1>
 
       <form onSubmit={handleSubmit}>
-        <div className="flex flex-col">
+        <div className="flex flex-col h-full">
           {" "}
           <div className=" flex flex-row ">
             <div
@@ -50,7 +50,7 @@ const UserRegistration = () => {
                 onChange={(e) => {
                   setName(e.target.value);
                 }}
-                className="w-25 h-15 border-2 border-blue-500 rounded-xl m-2 bg-blue-100 p-1 text-center shadow-xl"
+                className="w-2/3 h-15 border-2 border-blue-500 rounded-xl mb-8 mx-6 bg-blue-100 p-1 text-center shadow-xl flex justify-end"
               ></input>
               <input
                 type="tel"
@@ -59,7 +59,7 @@ const UserRegistration = () => {
                   setNumberTel(e.target.value);
                 }}
                 placeholder="numéro de telephone"
-                className="w-25 h-15 border-2 border-blue-500 rounded-xl m-2 bg-blue-100 p-1 text-center shadow-xl"
+                className="w-2/3 h-15 border-2 border-blue-500 rounded-xl mb-8 mx-6 bg-blue-100 p-1 text-center shadow-xl"
               ></input>
             </div>
           </div>
@@ -70,7 +70,7 @@ const UserRegistration = () => {
             }}
             type="email"
             placeholder="email"
-            className="w- h-15 border-2 border-blue-500 rounded-xl m-2 bg-blue-100 p-1 text-center shadow-xl"
+            className="w- h-15 border-2 border-blue-500 rounded-xl mb-8 mx-5 bg-blue-100 p-1 text-center shadow-xl"
           ></input>
           <input
             value={genre}
@@ -79,7 +79,7 @@ const UserRegistration = () => {
             }}
             placeholder="Que fais tu?"
             type="text"
-            className="w-30 h-15 border-2 border-blue-500 rounded-xl m-2 bg-blue-100 p-1 text-center shadow-xl"
+            className="w-30 h-15 border-2 border-blue-500 rounded-xl mb-8 mx-5 bg-blue-100 p-1 text-center shadow-xl"
           ></input>
           <textarea
             value={description}
@@ -88,11 +88,11 @@ const UserRegistration = () => {
             }}
             placeholder="description"
             type="texte"
-            className="w-30 h-30 border-2 border-blue-500 rounded-xl m-2 bg-blue-100 p-1 text-center shadow-xl"
+            className="w-30 h-50 border-2 border-blue-500 rounded-xl mb-8 mx-5 bg-blue-100 p-1 text-center shadow-xl"
           ></textarea>
           <div className="flex justify-around">
             <button
-              className="w-20 h-15 border-2 border-blue-500 rounded-xl m-2 bg-blue-100 p-1 text-center shadow-xl"
+              className="w-20 h-15 border-2 border-blue-500 rounded-xl mb-8 mx-3 bg-blue-100 p-1 text-center shadow-xl"
               type="submit"
               onClick={handleSubmit}
             >
@@ -101,7 +101,7 @@ const UserRegistration = () => {
             <button
               onClick={() => setMorceau(prompt("url de ton morceau"))}
               type="submit"
-              className="w-30 h-15 border-2 border-blue-500 rounded-xl m-2 bg-blue-100 p-1 text-center shadow-xl"
+              className="w-30 h-15 border-2 border-blue-500 rounded-xl mb-6 mx-3 bg-blue-100 p-1 text-center shadow-xl"
             >
               {" "}
               Ajoutes ton morceau
