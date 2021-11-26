@@ -1,4 +1,4 @@
-import ApiArtists from "./ApiArtists";
+// import ApiArtists from "./ApiArtists";
 import Header from "./Header";
 import ReactPlayer from "react-player";
 

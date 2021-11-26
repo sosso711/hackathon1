@@ -20,4 +20,3 @@ const Header = (props) => {
 };
 
 export default Header;
-<h1> Link Music</h1>;
