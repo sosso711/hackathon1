@@ -16,7 +16,7 @@ const Home = () => {
             alt="artiste du jour"
           />
           <div className="flex flex-col w-2/3">
-            <h2 className="text-center m-2 text-2xl">Nouveau Talent</h2>
+            <h2 className="text-center m-2 text-xl">Nouveau Talent</h2>
             <h3 className="text-blue-900 m-3 text-2xl">Jack Daniels</h3>
             <p className="text-xs">Chanteur depuis 20 ans, j'interprète ...</p>
             <Link
