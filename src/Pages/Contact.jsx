@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import FakeUser from "../Assets/fakeuser.png";
+import VerticalCarousel from "../components/VerticalCarousel";
 
 const Contact = () => {
   return (
@@ -13,9 +14,12 @@ const Contact = () => {
           className="rounded-full shadow-lg m-6 w-48"
         />
       </div>
-
-      <div>
+      <VerticalCarousel />
+      <div className="border-2 border-gray-500 w-2/5 text-center rounded-xl flex justify-center flex-col">
         <p>Bill Sanders</p>
+        <p>bill.sanders@wild.com</p>
+        <p>Maanger de tournée</p>
+        <p>+33 12345678</p>
       </div>
     </div>
   );

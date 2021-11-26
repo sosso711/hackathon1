@@ -10,7 +10,7 @@ const Header = (props) => {
 
       <div className="flex flex-col bg-blue-700 justify-center items-center">
         <Link to="/">
-          <img src={Logo} alt="logo" className="flex h-56" />
+          <img src={Logo} alt="logo" className="flex h-24" />
         </Link>
 
         <h4 className="text-4xl text-gray-200 pb-6"> {props.name}</h4>
